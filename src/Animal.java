@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private double weight;
     private  int age;
     private String name;
@@ -28,9 +28,8 @@ public class Animal {
     public void setName(String name){
         this.name=name;
     }
-    public void walk(){
-        System.out.println("Животное идет по земле");
-    }
+   abstract void walk();
+
 
 
 }

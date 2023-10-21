@@ -6,6 +6,9 @@ public class Dog extends Animal {
     public void play(){
         System.out.println("Собака играет с мячиком");
     }
+    public void walk(){
+        System.out.println("Собака ходит по земле");
+    }
     public Dog(){
 
     }

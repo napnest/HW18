@@ -6,6 +6,9 @@ public class Duck extends Animal {
     public void swim(){
         System.out.println("Утка купается в озере");
     }
+    public void walk(){
+        System.out.println("Утка ходит по земле");
+    }
     public Duck(){
 
     }
